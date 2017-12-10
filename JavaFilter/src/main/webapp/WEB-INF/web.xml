@@ -1,0 +1,56 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+    http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+    version="3.1">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <!--<filter>-->
+        <!--<filter-name>filter.FirstFilter</filter-name>-->
+        <!--<filter-class>filter.FirstFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>filter.FirstFilter</filter-name>-->
+        <!--<url-pattern>/index.jsp</url-pattern>-->
+        <!--<dispatcher>REQUEST</dispatcher>-->
+    <!--</filter-mapping>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>filter.FirstFilter</filter-name>-->
+        <!--<url-pattern>/main.jsp</url-pattern>-->
+    <!--</filter-mapping>-->
+
+    <!--<filter>-->
+        <!--<filter-name>filter.SecondFilter</filter-name>-->
+        <!--<filter-class>filter.SecondFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>filter.SecondFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+
+    <!--<error-page>-->
+        <!--<error-code>404</error-code>-->
+        <!--<location>/error.jsp</location>-->
+    <!--</error-page>-->
+
+    <!--<filter>-->
+        <!--<filter-name>filter.ErrorFilter</filter-name>-->
+        <!--<filter-class>filter.ErrorFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>filter.ErrorFilter</filter-name>-->
+        <!--<url-pattern>/error.jsp</url-pattern>-->
+        <!--<dispatcher>ERROR</dispatcher>-->
+    <!--</filter-mapping>-->
+
+    <!--<filter>-->
+        <!--<filter-name>filter.AsynFilter</filter-name>-->
+        <!--<filter-class>filter.AsynFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>filter.AsynFilter</filter-name>-->
+        <!--<url-pattern>/index1.jsp</url-pattern>-->
+    <!--</filter-mapping>-->
+
+</web-app>
