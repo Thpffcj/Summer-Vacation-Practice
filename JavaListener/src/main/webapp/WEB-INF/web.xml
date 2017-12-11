@@ -1,0 +1,34 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+    http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <listener>
+        <listener-class>listener.FirstListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listener.MyServletRequestListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listener.MyServletContextAttributeListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listener.MyHttpSessionAttributeListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>listener.MyServletRequestAttributeListener</listener-class>
+    </listener>
+
+    <context-param>
+        <param-name>initParam</param-name>
+        <param-value>Thpffcj</param-value>
+    </context-param>
+
+    <session-config>
+        <session-timeout>0</session-timeout>
+    </session-config>
+
+</web-app>
