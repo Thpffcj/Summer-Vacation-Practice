@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="SpringMVCDataBinding:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="SpringMVCDataBinding.war">
-      <element id="artifact" artifact-name="SpringMVCDataBinding:war exploded" />
-    </root>
-  </artifact>
-</component>

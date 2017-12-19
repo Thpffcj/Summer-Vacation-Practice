@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-Class-Path: weka.jar mtj-1.0.1.jar
-
